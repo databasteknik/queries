@@ -9,14 +9,14 @@ https://sqlbolt.com/lesson/select_queries_introduction Vid första tillfället k
 
 Skriv en query som returnerar...
 
-1. all information från tabellen `employees`
-2. förnamn, efternamn, telefonnummer och email från `employees`
-3. förnamn, efternamn och lön på alla employees med lön högre än 10000, sortera på lön i fallande ordning
-4. förnamn och efternamn på alla anställda med
-   employees som har managern Nancy Greenberg
-5. förnamn och efternamn på alla anställda som inte lagt in sitt telefonnummer i databasen
-6. förnamn och efternamn på alla anställda vars namn slutar på "..son" (exempelvis Johnson)
-7. **Challenge** förnamn och efternamn på alla managers. Tips: Skapa en view först.
+1. All information från tabellen `employees`
+2. Förnamn, efternamn, telefonnummer och adress från `employees`
+3. Förnamn, efternamn och på alla employees som blev anställda 1993 eller senare.
+4. Förnamn och efternamn på alla anställda med
+   employees som har managern Steven Buchanan
+5. Förnamn och efternamn på alla anställda som inte lagt in sitt telefonnummer i databasen
+6. Förnamn och efternamn på alla anställda vars efternamn börjar på D
+7. Förnamn och efternamn på alla managers.
 
 ### 4
 
@@ -33,12 +33,7 @@ Skriv nu följande queries av olika svårighetsgrad:
 - Hitta alla föremål i Roberts inventory som han kan ta på sig direkt. Det innebär att föremålet måste gå att ta på sig i en av Roberts lediga slots. En hjälm ska alltså inte finnas med i resultatet om Robert redan bär på en hjälm. Resultatet bör ha två kolumner, id och equipslot
 
 ### 5
-
-a) Hitta de totala lönerna uppdelat på avdelning i tabellen `employees`.
-b) Hitta den genomsnittliga lönen på hela företaget.
-c) Hitta personen med högst lön på varje avdelning.
-d) Rangordna anställda baserat på lön i tabellen `employees` per jobb-id.
-e) Utöka tabellen och visa titlarna på jobben också.
+TBA
 
 
 ### 6
