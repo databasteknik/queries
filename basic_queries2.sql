@@ -9,13 +9,13 @@ ORDER BY unit_price DESC
 LIMIT 5;
 
 -- 3. Find employees with a custom full_name column (using AS)
-SELECT employee_id, first_name || ' ' || last_name AS full_name, job_title
+SELECT employee_id, first_name || ' ' || last_name AS full_name
 FROM employees;
 
--- 4. Update the salary of employees in department 3 by increasing it by 10%
-UPDATE employees
-SET salary = salary * 1.10
-WHERE department_id = 3;
+-- 4. Update the price of products from supplier with id 2
+UPDATE products
+SET unit_price = unit_price * 1.10
+WHERE supplier_id = 2;
 
 -- 5. Delete customers from a specific city (e.g., 'Berlin')
 DELETE FROM customers
@@ -35,8 +35,8 @@ ORDER BY customer_id ASC, order_date DESC;
 -- 8. Use a CASE statement to categorize products based on price
 SELECT product_id, product_name, 
     CASE 
-        WHEN price_per_unit < 10 THEN 'Cheap'
-        WHEN price_per_unit BETWEEN 10 AND 50 THEN 'Moderate'
+        WHEN unit_price < 10 THEN 'Cheap'
+        WHEN unit_price BETWEEN 10 AND 50 THEN 'Moderate'
         ELSE 'Expensive'
     END AS price_category
 FROM products;
