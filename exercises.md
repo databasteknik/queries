@@ -16,7 +16,15 @@ Skriv en query som returnerar...
    employees som har managern Steven Buchanan
 5. Förnamn och efternamn på alla anställda som inte lagt in sitt telefonnummer i databasen
 6. Förnamn och efternamn på alla anställda vars efternamn börjar på D
-7. Förnamn och efternamn på alla managers.
+7. Förnamn och efternamn på alla managers. (Här kommer du behöva googla lite själv)
+8. Hitta de fem dyraste produkterna i products.
+9. Välj fem valfria kolumner från employees. En av kolumnerna ska heta full_name och vara en kombination av first- och lastname
+För övning 10 och 11 går det inte att uppdatera eller ta bort tabeller som har foreign keys eller som har andra tabeller med foreign keys som pekar på dem.
+10. Uppdatera valfri data i valfri tabell. Verifiera att det fungerade.
+11. Ta bort  valfri data i valfri tabell. Verifiera att det fungerade.
+12. Researcha funktionen COALESCE(). Testa den och formulera med egna ord hur den fungerar.
+13. Kategorisa alla orderrader i order_details efter hur dyr den orderraden är. Orderrader med totalvärde under 190 är "Cheap" orderrader över 600 är "Expensive", och allting där emellan är "Moderate".
+
 
 ### 4
 
