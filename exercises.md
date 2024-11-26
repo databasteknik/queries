@@ -94,10 +94,6 @@ Skriv nu följande queries av olika svårighetsgrad:
 
 ---
 
-Let me know if you need any additional exercises or adjustments!
-
--
-
 ### 6
 
 https://leetcode.com/problems/find-total-time-spent-by-each-employee/
