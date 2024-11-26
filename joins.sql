@@ -3,7 +3,14 @@
 -- Inner join kombinerar två tabeller baserat på ett villkor.
 -- I det här fallet slås rader samman där category_id från products är samma som category_id i categories.
 
-UPDATE products SET category_id = 99 WHERE category_id = 1
+ALTER TABLE products
+DROP CONSTRAINT fk_products_categories
+
+ALTER TABLE products
+ADD CONSTRAINT fk_products_categories
+FOREIGN KEY (category_id) REFERENCES categories(category_id) ON UPDATE CASCADE ON DELETE CASCADE
+
+UPDATE products SET category_id = 2 WHERE category_id = 1
 SELECT *
 FROM products
     LEFT JOIN categories ON products.category_id = categories.category_id;
