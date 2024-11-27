@@ -31,7 +31,7 @@ SELECT order_id,
 FROM order_details
 GROUP BY order_id
 ORDER BY revenue_rank;
--- NTILE() to determine which percentile a unit_price pelongs to.
+-- PERCENT_RANK() to determine which percentile a unit_price pelongs to.
 SELECT product_name,
     PERCENT_RANK() OVER (
         ORDER BY unit_price DESC
