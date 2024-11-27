@@ -135,3 +135,10 @@ https://leetcode.com/problems/bank-account-summary-ii/
 ### 10
 
 https://leetcode.com/problems/last-person-to-fit-in-the-bus/description/
+
+### 11
+https://leetcode.com/problems/second-highest-salary/description/
+Försök att lösa med RANK().
+
+### 12
+https://leetcode.com/problems/department-highest-salary/description/
